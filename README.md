@@ -1,7 +1,7 @@
 # photo-Demo
 Photo Editor Demo for GPUImageView
 
-
+```
 
 - (IBAction)pangesture:(UIPanGestureRecognizer *)gesture {
        if (gesture.state == UIGestureRecognizerStateEnded){
@@ -45,4 +45,6 @@ Photo Editor Demo for GPUImageView
                          [self popZoomOut];
                      }];
 }
+
+```
 
